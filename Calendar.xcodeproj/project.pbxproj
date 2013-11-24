@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358A284E18419B2F004C1350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A284D18419B2F004C1350 /* Foundation.framework */; };
+		358A285018419B2F004C1350 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A284F18419B2F004C1350 /* CoreGraphics.framework */; };
+		358A285218419B2F004C1350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A285118419B2F004C1350 /* UIKit.framework */; };
+		358A285818419B2F004C1350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358A285618419B2F004C1350 /* InfoPlist.strings */; };
+		358A285A18419B2F004C1350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A285918419B2F004C1350 /* main.m */; };
+		358A285E18419B2F004C1350 /* ZMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A285D18419B2F004C1350 /* ZMCAppDelegate.m */; };
+		358A286118419B2F004C1350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358A285F18419B2F004C1350 /* Main.storyboard */; };
+		358A286418419B2F004C1350 /* ZMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A286318419B2F004C1350 /* ZMCViewController.m */; };
+		358A286618419B2F004C1350 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358A286518419B2F004C1350 /* Images.xcassets */; };
+		358A286D18419B2F004C1350 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A286C18419B2F004C1350 /* XCTest.framework */; };
+		358A286E18419B2F004C1350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A284D18419B2F004C1350 /* Foundation.framework */; };
+		358A286F18419B2F004C1350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358A285118419B2F004C1350 /* UIKit.framework */; };
+		358A287718419B2F004C1350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358A287518419B2F004C1350 /* InfoPlist.strings */; };
+		358A287918419B2F004C1350 /* CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A287818419B2F004C1350 /* CalendarTests.m */; };
+		358A288718419B5E004C1350 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A288518419B5E004C1350 /* NSDate+Helper.m */; };
+		358A288A18419B89004C1350 /* ZMCCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358A288918419B89004C1350 /* ZMCCalendarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		358A287018419B2F004C1350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358A284218419B2F004C1350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358A284918419B2F004C1350;
+			remoteInfo = Calendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358A284A18419B2F004C1350 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358A284D18419B2F004C1350 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		358A284F18419B2F004C1350 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		358A285118419B2F004C1350 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		358A285518419B2F004C1350 /* Calendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calendar-Info.plist"; sourceTree = "<group>"; };
+		358A285718419B2F004C1350 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358A285918419B2F004C1350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		358A285B18419B2F004C1350 /* Calendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calendar-Prefix.pch"; sourceTree = "<group>"; };
+		358A285C18419B2F004C1350 /* ZMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCAppDelegate.h; sourceTree = "<group>"; };
+		358A285D18419B2F004C1350 /* ZMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCAppDelegate.m; sourceTree = "<group>"; };
+		358A286018419B2F004C1350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358A286218419B2F004C1350 /* ZMCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCViewController.h; sourceTree = "<group>"; };
+		358A286318419B2F004C1350 /* ZMCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCViewController.m; sourceTree = "<group>"; };
+		358A286518419B2F004C1350 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		358A286B18419B2F004C1350 /* CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		358A286C18419B2F004C1350 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		358A287418419B2F004C1350 /* CalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalendarTests-Info.plist"; sourceTree = "<group>"; };
+		358A287618419B2F004C1350 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358A287818419B2F004C1350 /* CalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarTests.m; sourceTree = "<group>"; };
+		358A288418419B5E004C1350 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		358A288518419B5E004C1350 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		358A288818419B89004C1350 /* ZMCCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCCalendarView.h; sourceTree = "<group>"; };
+		358A288918419B89004C1350 /* ZMCCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCCalendarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358A284718419B2F004C1350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A285018419B2F004C1350 /* CoreGraphics.framework in Frameworks */,
+				358A285218419B2F004C1350 /* UIKit.framework in Frameworks */,
+				358A284E18419B2F004C1350 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358A286818419B2F004C1350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A286D18419B2F004C1350 /* XCTest.framework in Frameworks */,
+				358A286F18419B2F004C1350 /* UIKit.framework in Frameworks */,
+				358A286E18419B2F004C1350 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358A284118419B2F004C1350 = {
+			isa = PBXGroup;
+			children = (
+				358A285318419B2F004C1350 /* Calendar */,
+				358A287218419B2F004C1350 /* CalendarTests */,
+				358A284C18419B2F004C1350 /* Frameworks */,
+				358A284B18419B2F004C1350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		358A284B18419B2F004C1350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358A284A18419B2F004C1350 /* Calendar.app */,
+				358A286B18419B2F004C1350 /* CalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358A284C18419B2F004C1350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358A284D18419B2F004C1350 /* Foundation.framework */,
+				358A284F18419B2F004C1350 /* CoreGraphics.framework */,
+				358A285118419B2F004C1350 /* UIKit.framework */,
+				358A286C18419B2F004C1350 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		358A285318419B2F004C1350 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				358A285C18419B2F004C1350 /* ZMCAppDelegate.h */,
+				358A285D18419B2F004C1350 /* ZMCAppDelegate.m */,
+				358A285F18419B2F004C1350 /* Main.storyboard */,
+				358A286218419B2F004C1350 /* ZMCViewController.h */,
+				358A286318419B2F004C1350 /* ZMCViewController.m */,
+				358A288818419B89004C1350 /* ZMCCalendarView.h */,
+				358A288918419B89004C1350 /* ZMCCalendarView.m */,
+				358A288418419B5E004C1350 /* NSDate+Helper.h */,
+				358A288518419B5E004C1350 /* NSDate+Helper.m */,
+				358A286518419B2F004C1350 /* Images.xcassets */,
+				358A285418419B2F004C1350 /* Supporting Files */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		358A285418419B2F004C1350 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358A285518419B2F004C1350 /* Calendar-Info.plist */,
+				358A285618419B2F004C1350 /* InfoPlist.strings */,
+				358A285918419B2F004C1350 /* main.m */,
+				358A285B18419B2F004C1350 /* Calendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358A287218419B2F004C1350 /* CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				358A287818419B2F004C1350 /* CalendarTests.m */,
+				358A287318419B2F004C1350 /* Supporting Files */,
+			);
+			path = CalendarTests;
+			sourceTree = "<group>";
+		};
+		358A287318419B2F004C1350 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358A287418419B2F004C1350 /* CalendarTests-Info.plist */,
+				358A287518419B2F004C1350 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358A284918419B2F004C1350 /* Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358A287C18419B2F004C1350 /* Build configuration list for PBXNativeTarget "Calendar" */;
+			buildPhases = (
+				358A284618419B2F004C1350 /* Sources */,
+				358A284718419B2F004C1350 /* Frameworks */,
+				358A284818419B2F004C1350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendar;
+			productName = Calendar;
+			productReference = 358A284A18419B2F004C1350 /* Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		358A286A18419B2F004C1350 /* CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358A287F18419B2F004C1350 /* Build configuration list for PBXNativeTarget "CalendarTests" */;
+			buildPhases = (
+				358A286718419B2F004C1350 /* Sources */,
+				358A286818419B2F004C1350 /* Frameworks */,
+				358A286918419B2F004C1350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358A287118419B2F004C1350 /* PBXTargetDependency */,
+			);
+			name = CalendarTests;
+			productName = CalendarTests;
+			productReference = 358A286B18419B2F004C1350 /* CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358A284218419B2F004C1350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZMC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = zhmch0329;
+				TargetAttributes = {
+					358A286A18419B2F004C1350 = {
+						TestTargetID = 358A284918419B2F004C1350;
+					};
+				};
+			};
+			buildConfigurationList = 358A284518419B2F004C1350 /* Build configuration list for PBXProject "Calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358A284118419B2F004C1350;
+			productRefGroup = 358A284B18419B2F004C1350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358A284918419B2F004C1350 /* Calendar */,
+				358A286A18419B2F004C1350 /* CalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358A284818419B2F004C1350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A286618419B2F004C1350 /* Images.xcassets in Resources */,
+				358A285818419B2F004C1350 /* InfoPlist.strings in Resources */,
+				358A286118419B2F004C1350 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358A286918419B2F004C1350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A287718419B2F004C1350 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358A284618419B2F004C1350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A286418419B2F004C1350 /* ZMCViewController.m in Sources */,
+				358A288718419B5E004C1350 /* NSDate+Helper.m in Sources */,
+				358A285A18419B2F004C1350 /* main.m in Sources */,
+				358A285E18419B2F004C1350 /* ZMCAppDelegate.m in Sources */,
+				358A288A18419B89004C1350 /* ZMCCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358A286718419B2F004C1350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358A287918419B2F004C1350 /* CalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		358A287118419B2F004C1350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 358A284918419B2F004C1350 /* Calendar */;
+			targetProxy = 358A287018419B2F004C1350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		358A285618419B2F004C1350 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358A285718419B2F004C1350 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		358A285F18419B2F004C1350 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358A286018419B2F004C1350 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358A287518419B2F004C1350 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358A287618419B2F004C1350 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358A287A18419B2F004C1350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		358A287B18419B2F004C1350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358A287D18419B2F004C1350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calendar/Calendar-Prefix.pch";
+				INFOPLIST_FILE = "Calendar/Calendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		358A287E18419B2F004C1350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calendar/Calendar-Prefix.pch";
+				INFOPLIST_FILE = "Calendar/Calendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		358A288018419B2F004C1350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calendar.app/Calendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calendar/Calendar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CalendarTests/CalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		358A288118419B2F004C1350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calendar.app/Calendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calendar/Calendar-Prefix.pch";
+				INFOPLIST_FILE = "CalendarTests/CalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358A284518419B2F004C1350 /* Build configuration list for PBXProject "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358A287A18419B2F004C1350 /* Debug */,
+				358A287B18419B2F004C1350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358A287C18419B2F004C1350 /* Build configuration list for PBXNativeTarget "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358A287D18419B2F004C1350 /* Debug */,
+				358A287E18419B2F004C1350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		358A287F18419B2F004C1350 /* Build configuration list for PBXNativeTarget "CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358A288018419B2F004C1350 /* Debug */,
+				358A288118419B2F004C1350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358A284218419B2F004C1350 /* Project object */;
+}
